@@ -11,7 +11,7 @@ The motivation of this paper is that timeout is a commonly used failure handling
 - This paper concludes **5 different root causes** of timeout bugs, they are:
   (1)**Misued timeout value**: misconfigure a timeout value
   (2)**Missing timeout checking**: Operation lacks of timeout mechanism (e.g. Network connection needs timeout to close it if network hangs a long time.)
-  (3)**Improper timeout handling**: a timeout event is handling by inproper retries or aborts
+  (3)**Improper timeout handling**: a timeout event is handling by improper retries or aborts
   (4)**Unnecessary timeout**
   (5)**Clock drifting**: asynchronous clocks caused timeout
 
