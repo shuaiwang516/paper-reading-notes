@@ -1,3 +1,5 @@
+### Paper pdf: http://dance.csc.ncsu.edu/papers/IC2E18.pdf
+
 ### Main work:
 
 This paper studied on real-world timeout bugs and answered 3 research questions, which are (1) What's the root causes of timeout bugs? (2) What impact can timeout bugs impose to systems? (3) How are timeout bugs diagnosed?
