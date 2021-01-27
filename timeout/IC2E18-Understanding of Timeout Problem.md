@@ -21,6 +21,7 @@ The motivation of this paper is that timeout is a commonly used failure handling
 ### Takeaway:
 
 - There are 2 root causes which are related to my research, they are (1)misused timeout value and (2)improper timeout handling.
+
   For (1)misused timeout vlaue, paper also proposed that stale timeout value is not good enough. It should update during the system execution. But the paper doesn't go deeper into it.
   As for (2)improper timeout handling, it includes insufficient/excessive retries, incorrect retry, which all related to our project. Current handling logics are all static, which may not be suitable for all kinds of environments. So if we could make the handling logic more dynamic, we could update during the system exeuction and fit different environments.
 
